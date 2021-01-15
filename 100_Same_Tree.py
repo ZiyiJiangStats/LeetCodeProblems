@@ -13,3 +13,7 @@ class Solution:
             return False 
         
         return self.isSameTree(p.right, q.right) and self.isSameTree(p.left,q.left) 
+
+    # let n be the number of nodes in the tree 
+    # time complexity :  O(n)  
+    # space complexity : best case with balanced tree O(logn),  worst case with completely unbalanced tree O(n) 
