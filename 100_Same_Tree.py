@@ -1,3 +1,5 @@
+
+#recursive method
 class Solution: 
     def isSameTree(self,p,q): 
     
