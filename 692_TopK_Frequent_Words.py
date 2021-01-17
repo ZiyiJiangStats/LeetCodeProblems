@@ -1,5 +1,6 @@
 
 
+#hash table 
 class Solution: 
     def topKFrequent(self,words,k): 
         #count the frequency of each word 
