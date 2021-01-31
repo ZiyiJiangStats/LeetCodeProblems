@@ -1,4 +1,5 @@
 
+#Inorder traversal   left child, root, right child
 
 # Definition for a binary tree node.
 # class TreeNode(object):
