@@ -4,18 +4,19 @@ class Solution(object):
         :type root: TreeNode
         :rtype: bool
         """
-        # using inorder - binary search tree will be ascending order
+        order = []
         stack = []
         cur = root
-        pre = None
-        while len(stack) or cur:
-            if cur:
+        while stack or cur:
+            while cur:
                 stack.append(cur)
                 cur = cur.left
-            else:
-                p = stack.pop()
-                if pre and p.val <= pre.val:
-                    return False
-                pre = p
-                cur = p.right
+            cur = stack.pop()
+            order.append(cur.val)
+            cur = cur.right
+        print(order)
+        
+        for i in range(1, len(order)):
+            if order[i] <= order[i-1]:
+                return False
         return True
