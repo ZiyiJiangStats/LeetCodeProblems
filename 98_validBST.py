@@ -1,6 +1,8 @@
 
 #Inorder traversal   left child, root, right child
 
+#The resulting list will be in ascending order 
+
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
