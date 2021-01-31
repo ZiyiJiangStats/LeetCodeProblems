@@ -6,6 +6,7 @@ class Solution(object):
         """
         order = []
         stack = []
+        #current node  
         cur = root
         while stack or cur:
             while cur:
@@ -14,8 +15,8 @@ class Solution(object):
             cur = stack.pop()
             order.append(cur.val)
             cur = cur.right
-        print(order)
-        
+        #order stores the value from inorder traversal 
+        #so we just check if the list is ascending
         for i in range(1, len(order)):
             if order[i] <= order[i-1]:
                 return False
