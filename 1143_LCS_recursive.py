@@ -21,7 +21,7 @@
             else:
                 return max(self.helper(s1, s2, i+1, j), self.helper(s1, s2, i, j + 1))
 
-               
+       # Bad time complexity:  2^n
                
                
      #memoization    
