@@ -2,7 +2,11 @@
 
 #Bottom up dynamic programming 
 
-
+"""
+S1= afcde
+S2 = acdbfe 
+One good test example
+"""
 class Solution: 
     
     def longestCommonSubsequence(self,s1:str,s2:str) -> int : 
