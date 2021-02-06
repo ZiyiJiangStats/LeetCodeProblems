@@ -2,6 +2,14 @@
    Recursive solution 
    """
    
+   """
+   Subsequence is not substring   
+   
+   
+   subsequence doesn't need to be consecutive   
+   substring needs to be consecutive 
+   """
+   
    class Solution:
         def longestCommonSubsequence(self, s1: str, s2: str) -> int:
             return self.helper(s1, s2, 0, 0)
