@@ -1,3 +1,16 @@
+"""
+Given a tree, we want to find the minimum height trees and return the roots of MHT. 
+
+
+height: maximum number of edges to go from the root to one of the leaves
+
+Topological sort method : 
+
+
+Time Complexity: O(|V|)
+Space Complexity: O(|V|)
+"""
+
 class Solution:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
 
