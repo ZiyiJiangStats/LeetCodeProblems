@@ -4,6 +4,11 @@ Given a tree, we want to find the minimum height trees and return the roots of M
 
 height: maximum number of edges to go from the root to one of the leaves
 
+
+
+For the tree-alike graph, the number of centroids is no more than 2.
+
+
 Topological sort method : 
 
 
