@@ -26,3 +26,6 @@ class Solution:
                     lo += 1
                     hi -= 1
             return res
+         
+        nums.sort()
+        return kSum(nums, target, 4)
