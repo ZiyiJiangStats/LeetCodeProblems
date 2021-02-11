@@ -41,6 +41,8 @@ class Solution:
         return target - diff
 
 
+#Time : O(n^2)   
+
 
 
 #Approach 2:  Binary Search 
